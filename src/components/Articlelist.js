@@ -1,9 +1,15 @@
 import React from "react";
+import blogData from "../data/blog";
 
 function Articlelist() {
-return (
-    <article>Hello World!</article> 
-   ) 
+
+// const articleComponents = blogData.map((post) => {
+//     return <h3>{post.title}</h3>
+// })
+
+// return (
+//     <main>{articleComponents}</main>
+//    ) 
 }
 
 
